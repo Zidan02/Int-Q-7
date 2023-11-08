@@ -1,0 +1,55 @@
+body {
+    background-image: url(wallpaper-wolf.png);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(230, 237, 241, 0.11);
+    width: fit-content;
+    padding: 10px 60px;
+    
+}
+.border{
+    border-radius: 6px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin: 10px 2px;
+    background: rgba(128, 128, 128, 0.137);
+    border: 1px solid rgb(128, 128, 128);
+}
+
+::placeholder {
+    color: aliceblue;
+    
+}
+
+input[type=submit] {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: rgba(128, 128, 128, 0.137);
+    height: 30px;
+    width: 145px;
+    color: white;
+    padding: 0px 10px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 128, 128);
+}
